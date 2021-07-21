@@ -1,0 +1,29 @@
+<html>
+<head>
+<br>
+<center>
+<form>
+<table border=0 >
+<tr><th colspan="2" style=font-size:35;color:red> Registration Form </th></tr><br>
+<tr> <td> User Id </td> <td> <input required pattern="[0-9a-z ]{6}" id=userid ><span style=color:red>*</span> </td> </tr>
+<tr> <td> Name</td>  <td> <input required pattern="[A-Za-z ]{2,40}" id=name ><span style=color:red>*</span> </td> </tr> 
+<tr> <td> Password </td> <td> <input type=password required pattern="[0-9a-zA-Z]{8,16}" placeholder="atleast 8 characters" id=pass ><span style=color:red>*</span> </td> </tr>
+<tr> <td> Email Id </td> <td> <input required type=email placeholder="like abc@xyz.com" id=email ><span style=color:red>*</span> </td> </tr>
+<tr> <td> Contact </td> <td> <input required pattern="[0-9]{10}" placeholder="10 digits" id=contact ><span style=color:red>*</span> </td> </tr> 
+<tr> <td> Address </td> <td> <input required type=textarea id=address ><span style=color:red>*</span></td> </tr>
+<tr> <td> Date of Birth </td> <td> <input type=date id=dob><span style=color:red>*</span> </td> </tr> 
+<tr> <td> Country</td>  <td> 
+<select id=country >
+<option> India </option>
+<option> Australia </option>
+<option> China </option>
+<option> Germany </option>
+<option> France </option>
+</select></td> 
+<tr> <td> </td> <td> <input type=submit value=Register style=color:black;background-color:yellow;font-size:20 > </td> </tr>
+</table>
+</form>
+
+<center>
+</head>
+</html>
